@@ -7,7 +7,7 @@
 4.1 Create a list with the following five items: `7, 9, 'a', 'cat',
 False`. Assign this list to the variable `myList`
 """
-
+myList = [7,9,'a','cat',False]
 
 
 """
