@@ -42,9 +42,11 @@ print(listString)
 4.4 Split the string 'mississippi' into a list using 'i' as the split
 point.
 """
+string = 'mississippi'
 
+listString = string.split("i")
 
-
+print(listString)
 """
 4.5 Write a function that takes a sentence as a parmeter and returns the
 number of words in the sentence.
