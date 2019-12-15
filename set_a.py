@@ -2,7 +2,7 @@
 #
 # p. 127
 #
-
+from functions import *
 """
 4.1 Create a list with the following five items: `7, 9, 'a', 'cat',
 False`. Assign this list to the variable `myList`
@@ -52,7 +52,7 @@ print(listString)
 number of words in the sentence.
 """
 
-
+print(numOfWords("Hello Bob, this is your Mother"))
 
 """
 4.6 Although Python provides us with many list methods, it is good
