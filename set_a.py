@@ -21,8 +21,13 @@ myList = [7,9,'a','cat',False]
 (f) Remove 'dog' from the list, using `pop()` and `index()`
 """
 
-
-
+myList.extend([3.14,7])
+myList.insert(3, 'dog')
+print(myList.index('cat'))
+print(myList.count(7))
+myList.remove(7)
+myList.pop(myList.index('dog'))
+print(myList)
 
 """
 4.3 Split the string 'The quick brown fox' into a list of words.
