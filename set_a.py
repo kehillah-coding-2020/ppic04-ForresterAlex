@@ -33,8 +33,11 @@ print(myList)
 4.3 Split the string 'The quick brown fox' into a list of words.
 """
 
+string = 'The quick brown fox'
 
+listString = string.split(" ")
 
+print(listString)
 """
 4.4 Split the string 'mississippi' into a list using 'i' as the split
 point.
