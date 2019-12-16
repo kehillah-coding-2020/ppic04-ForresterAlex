@@ -13,7 +13,7 @@ print(gitMin(numbers))
 4.15 Implement the `getMin()` function using iteration by item.
 """
 
-
+print(gitMinIndex(numbers))
 
 """
 4.16 Rewrite the `getRange()` function using `getMin()` and `getMax()`.
