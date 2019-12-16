@@ -27,3 +27,20 @@ Takes an input of a list of ints and returns the min by item
             min = list[pos]
 
     return min
+
+def getMax(alist):
+    '''
+Textbook issued getMax Function
+    '''
+    maxSoFar = alist[0]
+    for item in alist[1:]:
+        if item > maxSoFar:
+            maxSoFar = item
+
+    return maxSoFar
+
+def getRange(list):
+    '''
+Gets range of values on a list using gitMin and getMax
+    '''
+    return getMax(list)-gitMin(list)

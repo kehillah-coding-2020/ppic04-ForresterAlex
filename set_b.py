@@ -18,7 +18,7 @@ print(gitMinIndex(numbers))
 """
 4.16 Rewrite the `getRange()` function using `getMin()` and `getMax()`.
 """
-
+print(getRange(numbers))
 
 
 """
