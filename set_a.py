@@ -97,7 +97,9 @@ previous two exercises.
 Evaluate the expression and describe the result.
 """
 
+myList = [[]]*3
 
+#Creates a list with 3 empty items, each being '[]'
 
 """
 4.11 Now evaluate the expression `myList[1].append(2)`, and describe the
