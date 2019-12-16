@@ -99,9 +99,13 @@ Evaluate the expression and describe the result.
 
 myList = [[]]*3
 
-#Creates a list with 3 empty items, each being '[]'
+#Creates a list with 3 empty items, each being '[]', creating 3 lists indside eachother?
 
 """
 4.11 Now evaluate the expression `myList[1].append(2)`, and describe the
 result.
 """
+myList[1].append(2)
+print(myList)
+
+#returns all 3 lists inside the master list with the value of 2
