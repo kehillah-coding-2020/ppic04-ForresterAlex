@@ -9,7 +9,7 @@ seperates the words
 
 def gitMin(list):
     '''
-Takes an input of a string and returns the minimum number
+Takes an input of a list of ints and returns the minimum number
     '''
     min = list[0]
     for item in list[1:]:
