@@ -65,7 +65,6 @@ following:
 (c) `reverse`
 (d) `index` - return -1 if not in the list
 (e) insert
-
 """
 
 

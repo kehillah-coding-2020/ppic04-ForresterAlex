@@ -2,12 +2,12 @@
 #
 # pp. 131, 132, 134
 #
-
+from functions import *
 """
 4.14 Implement the `getMin()` function using iteration by index.
 """
-
-
+numbers = [17,12,4,32]
+print(gitMin(numbers))
 
 """
 4.15 Implement the `getMin()` function using iteration by item.
