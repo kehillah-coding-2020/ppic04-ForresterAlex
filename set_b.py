@@ -40,7 +40,9 @@ print(sumByIteration(numOfStudents))
 4.19 Why is it important to make a copy of a list before sorting?
 """
 
-
+#Creating a copy of a list allows you to reference the origional list before it
+#was sorted, therefore giving you a reference, and preserving the origional data
+#set.
 
 """
 4.20 Find the mean age of ten people near you.
