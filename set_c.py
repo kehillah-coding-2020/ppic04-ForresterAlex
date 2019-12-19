@@ -47,8 +47,8 @@ print(mean(list))
 4.29 Update the score for `sally` to be 13.
 """
 
-
-
+scoreDict['sally']=13
+print(scoreDict)
 """
 4.30 Tom has just dropped this class. Delete 'tom' and his score from
 `scoreDict`.
