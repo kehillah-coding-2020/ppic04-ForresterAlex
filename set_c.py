@@ -28,7 +28,7 @@ print(scoreDict['barb'])
 4.26 Add a score of 19 for 'jon'.
 """
 
-
+scoreDict['jon']=19
 
 """
 4.27 Create a sorted list of all the scores in `scoreDict`.
