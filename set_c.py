@@ -21,7 +21,7 @@ scoreDict = makeDictionary(names,scores)
 """
 4.25 Using `scoreDict`, find the score for 'barb'.
 """
-
+print(scoreDict['barb'])
 
 
 """
