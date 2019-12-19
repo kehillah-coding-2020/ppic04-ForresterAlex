@@ -41,7 +41,7 @@ print(list)
 4.28 Calculate the average of all the scores in `scoreDict`.
 """
 
-
+print(mean(list))
 
 """
 4.29 Update the score for `sally` to be 13.
