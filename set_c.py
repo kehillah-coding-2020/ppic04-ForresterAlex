@@ -2,7 +2,7 @@
 #
 # pp. 139, 145
 #
-
+from functions import *
 """
 4.24 You have been given the following list of students and their test
 scores
@@ -15,9 +15,9 @@ the two lists and returns a dictionary with the names as the key and
 the scores as the values. Assign the result of `makeDictionary()` to
 `scoreDict`, which will be used in the exercises that follow.
 """
-
-
-
+names = ['joe', 'tom', 'barb', 'sue', 'sally']
+scores = [10, 23, 13, 18, 12]
+scoreDict = makeDictionary(names,scores)
 """
 4.25 Using `scoreDict`, find the score for 'barb'.
 """

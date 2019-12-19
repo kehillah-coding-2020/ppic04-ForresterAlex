@@ -76,3 +76,12 @@ Textbook issued median function
         mid = len(copylist)//2
         median = copylist[mid]
     return median
+
+def makeDictionary(key, values):
+    '''
+Function to makeDictionary taking two lists
+    '''
+    dictionary = {}
+    for x in range(len(key)):
+        dictionary[key[x]]=values[x]
+    return dictionary
