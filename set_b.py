@@ -71,3 +71,5 @@ print(median(mentalAgeOfPeopleAroundMe))
 4.23 Find the median age of ten people near you, plus your
 professor.
 """
+mentalAgeOfPeopleAroundMe.append(41)
+print(median(mentalAgeOfPeopleAroundMe))
