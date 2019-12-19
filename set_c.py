@@ -33,8 +33,9 @@ scoreDict['jon']=19
 """
 4.27 Create a sorted list of all the scores in `scoreDict`.
 """
-
-
+list = list(scoreDict.values())
+list.sort()
+print(list)
 
 """
 4.28 Calculate the average of all the scores in `scoreDict`.
