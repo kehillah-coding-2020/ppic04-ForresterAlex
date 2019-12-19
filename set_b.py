@@ -33,7 +33,7 @@ print(mean(numOfStudents))
 4.18 Replace the call to the `sum()` function with an iteration that
 computes the total of the values in `alist`.
 """
-
+print(sumByIteration(numOfStudents))
 
 
 """

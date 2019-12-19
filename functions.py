@@ -51,3 +51,13 @@ Textbook issued mean Function
     '''
     mean = sum(alist)/len(alist)
     return mean
+
+def sumByIteration(list):
+    '''
+Sum function using accumulator pattern
+    '''
+    total = 0
+    for x in range(len(list)):
+        total = total + list[x]
+
+    return total
