@@ -61,3 +61,18 @@ Sum function using accumulator pattern
         total = total + list[x]
 
     return total
+
+def median(alist):
+    '''
+Textbook issued median function
+    '''
+    copylist = alist [:]
+    copylist.sort()
+    if len(copylist)%2 == 0:
+        rightmid = len(copylist)//2
+        leftmid = rightmid -1
+        median = (copylist[leftmid] + copylist[rightmid])/2
+    else:
+        mid = len(copylist)//2
+        median = copylist[mid]
+    return median

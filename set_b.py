@@ -64,7 +64,8 @@ print(mean(mentalAgeOfPeopleAroundMe))
 4.22 Find the median age of ten people near you.
 """
 
-
+mentalAgeOfPeopleAroundMe = [20,14,17,15,9,10,16,15,14,18]
+print(median(mentalAgeOfPeopleAroundMe))
 
 """
 4.23 Find the median age of ten people near you, plus your
