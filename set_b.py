@@ -25,7 +25,8 @@ print(getRange(numbers))
 4.17 Create a list of the number of students in each of your classes. Use
 the `mean()` function on that list.
 """
-
+numOfStudents = [10,15,17,13,11,12,14]
+print(mean(numOfStudents))
 
 
 """

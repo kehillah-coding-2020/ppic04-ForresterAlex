@@ -44,3 +44,10 @@ def getRange(list):
 Gets range of values on a list using gitMin and getMax
     '''
     return getMax(list)-gitMin(list)
+
+def mean(alist):
+    '''
+Textbook issued mean Function
+    '''
+    mean = sum(alist)/len(alist)
+    return mean
