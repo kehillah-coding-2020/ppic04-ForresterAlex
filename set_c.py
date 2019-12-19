@@ -53,8 +53,8 @@ print(scoreDict)
 4.30 Tom has just dropped this class. Delete 'tom' and his score from
 `scoreDict`.
 """
-
-
+del scoreDict['tom']
+print(scoreDict)
 
 """
 4.31 Print out a table of students and their scores with the students
