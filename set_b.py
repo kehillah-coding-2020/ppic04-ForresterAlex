@@ -48,8 +48,10 @@ print(sumByIteration(numOfStudents))
 4.20 Find the mean age of ten people near you.
 """
 
+mentalAgeOfPeopleAroundMe = [20,14,17,15,9,10,16,15,14,18]
+#excluding me
 
-
+print(mean(mentalAgeOfPeopleAroundMe))
 """
 4.21 Find the mean age of ten people near you and your professor, who is
 41 years old.
