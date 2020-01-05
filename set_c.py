@@ -33,15 +33,15 @@ scoreDict['jon']=19
 """
 4.27 Create a sorted list of all the scores in `scoreDict`.
 """
-list = list(scoreDict.values())
-list.sort()
-print(list)
+scoreList = list(scoreDict.values())
+scoreList.sort()
+print(scoreList)
 
 """
 4.28 Calculate the average of all the scores in `scoreDict`.
 """
 
-print(mean(list))
+print(mean(scoreList))
 
 """
 4.29 Update the score for `sally` to be 13.
@@ -60,8 +60,14 @@ print(scoreDict)
 4.31 Print out a table of students and their scores with the students
 listed in alphabetical order.
 """
-
-
+#scores = list(scoreDict.vaules())
+#scores = scoreList
+#names = list(scoreDict.keys())
+scoreDict.sort()
+print(scoreDict)
+#for x in range(len(names)):
+#	print(names[x])
+#	print(scores[x])
 
 """
 4.32 Write a function called `getScore()` that takes a name and a
